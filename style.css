@@ -10,7 +10,8 @@
 * {
     box-sizing: border-box;
     font-family: Raleway;
-    color: #777;
+    color: #2d2c2c;
+    font-size: 24px;
 }
 
 html, body {
@@ -19,6 +20,8 @@ html, body {
     min-height: 100%;
 }
 
+
+/********HEADER*******/
 .nav ul {
     margin: 0;
 }
@@ -32,6 +35,7 @@ html, body {
     padding: .5em;
     color: white;
     text-decoration: none;
+    font-size: 25px;
 }
 
 .main-nav {
@@ -63,7 +67,7 @@ html, body {
     font-size: 4em;
     font-family: "Booter - Zero Zero";
     font-weight: normal;
-    color: white;
+    color: blue;
 }
 
 .band-name-large {
@@ -93,31 +97,6 @@ html, body {
     width: 200px;
     margin: 15px;
     border-radius: 50%;
-}
-
-.main-footer {
-    background-color: #56CCF2;
-    color: white;
-    padding: .25em 0;
-}
-
-.main-footer-container {
-    display: flex;
-    align-items: center;
-}
-
-.main-footer-container ul {
-    flex-grow: 1;
-    text-align: end;
-}
-
-.footer-nav li {
-    padding: 0 .5em;
-}
-
-.footer-nav img {
-    width: 30px;
-    height: 30px;
 }
 
 .btn {
@@ -335,4 +314,21 @@ html, body {
     display: block;
     margin: 40px auto 80px auto;
     font-size: 1.75em;
+}
+
+
+/*******FOOTER*******/
+.main-footer {
+    background: #2D9CDB;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 60px;
+
+}
+.main-footer .FOOTER {
+    color: black;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-style: oblique;
 }
