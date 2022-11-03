@@ -24,18 +24,21 @@ html, body {
 /********HEADER*******/
 .nav ul {
     margin: 0;
+    background: #696868;
 }
 
 .nav li {
     display: inline;
+
 }
 
 .nav a {
     display: inline-block;
     padding: .5em;
-    color: white;
+    color: #fff1f1;
     text-decoration: none;
     font-size: 25px;
+    font-family: "Arial Rounded MT Bold";
 }
 
 .main-nav {
@@ -67,18 +70,29 @@ html, body {
     font-size: 4em;
     font-family: "Booter - Zero Zero";
     font-weight: normal;
-    color: blue;
+    color: #ff6a00;
 }
 
 .band-name-large {
     font-size: 8em;
 }
 
+
+/****the section for every products and page***/
 .content-section {
     margin: 1em;
+    background: aqua;
 }
 
 .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    background: #ffb78a;
+}
+
+/***** new product header***/
+.container-header {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1.5em;
@@ -122,17 +136,7 @@ html, body {
     background-color: rgba(255, 255, 255, .3);
 }
 
-.btn-play {
-    display: block;
-    margin: 0 auto;
-    color: #2D9CDB;
-    font-size: 4em;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    padding: 0;
-    text-align: center;
-}
+
 
 .btn-primary {
     color: white;
@@ -148,8 +152,8 @@ html, body {
 
 .tour-row {
     border-bottom: 1px solid black;
-    padding-bottom: 1em;
-    margin-bottom: 1em;
+    padding-bottom: 3em;
+    margin-bottom: 3em;
 }
 
 .tour-row:last-child {
@@ -313,7 +317,10 @@ html, body {
 .btn-purchase {
     display: block;
     margin: 40px auto 80px auto;
-    font-size: 1.75em;
+    font-size: 1em;
+
+
+
 }
 
 
