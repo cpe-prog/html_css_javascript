@@ -69,8 +69,9 @@ html, body {
     margin: 0;
     font-size: 4em;
     font-family: "Booter - Zero Zero";
-    font-weight: normal;
-    color: #ff6a00;
+    font-weight: bold;
+    color: #0216f8;
+    text-shadow: #eeeeee;
 }
 
 .band-name-large {
