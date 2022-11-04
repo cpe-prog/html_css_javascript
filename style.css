@@ -10,7 +10,7 @@
 * {
     box-sizing: border-box;
     font-family: Raleway;
-    color: #2d2c2c;
+    color: #f3760b;
     font-size: 24px;
 }
 
@@ -39,6 +39,7 @@ html, body {
     text-decoration: none;
     font-size: 25px;
     font-family: "Arial Rounded MT Bold";
+    font-weight: bold;
 }
 
 .main-nav {
@@ -53,7 +54,9 @@ html, body {
 }
 
 .nav a:hover {
-    background-color: rgba(255, 255, 255, .3)
+    background-color: rgb(255, 106, 0);
+    border-radius: 15px ;
+
 }
 
 .main-header {
@@ -164,6 +167,8 @@ html, body {
 .tour-item {
     display: inline-block;
     padding-right: .5em;
+    color: #0a0a0a;
+    font-weight: normal;
 }
 
 .tour-date {
@@ -327,11 +332,12 @@ html, body {
 
 /*******FOOTER*******/
 .main-footer {
-    background: #2D9CDB;
+    background: #ee850f;
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 60px;
+    border-top:10px solid black;
 
 }
 .main-footer .FOOTER {
@@ -339,4 +345,9 @@ html, body {
     font-size: 40px;
     font-family: sans-serif;
     font-style: oblique;
+}
+.lorem {
+    font-style: italic;
+    color: #181818;
+    padding-bottom: 30px;
 }
