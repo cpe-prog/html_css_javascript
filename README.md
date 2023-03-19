@@ -1,5 +1,5 @@
 ﻿ # BSCpE-4 Group
- # with the Group mate:
+ # with the Group mates:
 # Loren
 # Jess
 # Tal
